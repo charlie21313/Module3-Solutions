@@ -1,0 +1,58 @@
+#header-nav {
+	background-color: lightblue;
+	border-radius: 1px;
+}
+
+.navbar-brand:hover, .navbar-brand:focus{
+	text-decoration: none;
+}
+.navbar-brand{
+	font-size: 3em;
+	color: red;
+}
+
+/*Dropdown menu*/
+#collapsable-menu{
+	color: black;
+	text-align: center;
+	font-size: 2em;
+	background-color: lightgrey;
+}
+
+@media(min-width: 768px){
+	#collapsable-menu{
+		visibility: hidden;
+	}
+}
+
+#menu-list{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#menu-list li{
+	list-style-type: none;
+	padding: 5px;
+	border: 1px white solid;
+}
+#menu-list > li:hover{
+	background-color: grey;
+}
+#menu-list > li > a{
+	color: white;
+	background-color: grey;
+}
+#menu-list > li > a:hover{
+	color: white;
+	background-color: red;
+}
+
+
+/*Menu Items*/
+.itembox{
+	padding: 5%;
+}
+.menu-item{
+	background-color: #aabbcc;
+	padding: 5px;
+}
